@@ -3,11 +3,15 @@ const shuffleSeed = require('shuffle-seed');
 const domain = 'buildkite.com';
 
 const people = {
-  Tim: `tim@${domain}`,
-  Keith: `keith@${domain}`,
-  Sam: `sam@${domain}`,
-  Jess: `jess@${domain}`,
-  Harriet: `harriet@${domain}`,
+  Baz: `chris@${domain}`,
+  Ben: `ben@${domain}`,
+  Brett: `brett@${domain}`,
+  Chris: `chris.c@${domain}`,
+  Hannah: `hannah@${domain}`,
+  Mel: `mel@${domain}`,
+  MHz: `michelle@${domain}`,
+  Michael: `michael@${domain}`,
+  Mitch: `mitch@${domain}`,
 }
 
 // Takes a seed and list of hints, and returns the secret santa list
@@ -15,21 +19,29 @@ const people = {
 // Example:
 //
 //   secretSanta(42, {
-//     Jess:    { hint: 'Jess's hint',    address: 'Jess's address' },
-//     Tim:     { hint: 'Tim's hint',     address: 'Tim's address' },
-//     Keith:   { hint: 'Keith's hint',   address: 'Keith's address' },
-//     Sam:     { hint: 'Sam's hint',     address: 'Sam's address' },
-//     Harriet: { hint: 'Harriet's hint', address: 'Harriet's address' },
+//     Baz:     { hint: 'Baz's hint',     address: 'Baz's address' },
+//     Ben:     { hint: 'Ben's hint',     address: 'Ben's address' },
+//     Brett:   { hint: 'Brett's hint',   address: 'Brett's address' },
+//     Chris:   { hint: 'Chris's hint',   address: 'Chris's address' },
+//     Hannah:  { hint: 'Hannah's hint',  address: 'Hannah's address' },
+//     Mel:     { hint: 'Mel's hint',     address: 'Mel's address' },
+//     MHz:     { hint: 'MHz's hint',     address: 'MHz's address' },
+//     Michael: { hint: 'Michael's hint', address: 'Michael's address' },
+//     Mitch:   { hint: 'Mitch's hint',   address: 'Mitch's address' },
 //   })
 //
 //   returns:
 //
 //   [
-//     { name: 'Jess',    email: '...', received: { name: 'Tim',     hint: 'Tim's hint',     address: 'Tim's address' } },
-//     { name: 'Tim',     email: '...', received: { name: 'Keith',   hint: 'Keith's hint',   address: 'Keith's address' } },
-//     { name: 'Keith',   email: '...', received: { name: 'Sam',     hint: 'Sam's hint',     address: 'Sam's address' } },
-//     { name: 'Sam',     email: '...', received: { name: 'Harriet', hint: 'Harriet's hint', address: 'Harriet's address' } },
-//     { name: 'Harriet', email: '...', received: { name: 'Jess',    hint: 'Jess's hint',    address: 'Jess's address' } },
+//     { name: 'Baz',     email: '...', received: { name: 'Mitch',   hint: 'Mitch's hint',   address: 'Mitch's address' } },
+//     { name: 'Ben',     email: '...', received: { name: 'Michael', hint: 'Michael's hint', address: 'Michael's address' } },
+//     { name: 'Brett',   email: '...', received: { name: 'MHz',     hint: 'MHz's hint',     address: 'MHz's address' } },
+//     { name: 'Chris',   email: '...', received: { name: 'Mel',     hint: 'Mel's hint',     address: 'Mel's address' } },
+//     { name: 'Hannah',  email: '...', received: { name: 'Chris',   hint: 'Chris's hint',   address: 'Chris's address' } },
+//     { name: 'Mel',     email: '...', received: { name: 'Brett',   hint: 'Brett's hint',   address: 'Brett's address' } },
+//     { name: 'MHz',     email: '...', received: { name: 'Ben',     hint: 'Ben's hint',     address: 'Ben's address' } },
+//     { name: 'Michael', email: '...', received: { name: 'Baz',     hint: 'Baz's hint',     address: 'Baz's address' } },
+//     { name: 'Mitch',   email: '...', received: { name: 'Hannah',  hint: 'Hannah's hint',  address: 'Hannah's address' } },
 //   ]
 exports.calculate = function(seed, answers) {
   if (!answers) return;

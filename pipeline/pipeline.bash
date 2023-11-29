@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-NAMES=$(shuf -e Jess Harriet Sam Keith Tim)
+NAMES=$(shuf -e Baz Ben Brett Chris Hannah Mel MHz Michael Mitch)
 
 if [[ ! -z "${BUILDKITE:-}" ]]; then
   buildkite-agent meta-data set names "$NAMES"

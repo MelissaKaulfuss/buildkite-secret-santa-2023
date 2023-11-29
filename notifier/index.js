@@ -25,7 +25,7 @@ function sendEmail(listItem, done) {
   const ses = new AWS.SES();
   const message = secretSanta.message(listItem);
   const subject = 'Your Buildkite Secret Santa';
-  const adminEmail = '"Tim" <tim@' + 'buildkite.com' + '>';
+  const adminEmail = '"Mel" <mel@' + 'buildkite.com' + '>';
 
   var params = {
     Source: adminEmail,

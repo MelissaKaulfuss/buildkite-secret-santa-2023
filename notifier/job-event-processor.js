@@ -9,8 +9,8 @@ const commandPattern = /magical\-unicorns/;
 //
 // Example:
 //   {
-//     Tim:  { hint: "Tim's hint",  address: "Tim's address" },
-//     Jess: { hint: "Jess's hint", address: "Jess's address" },
+//     Hannah:  { hint: "Hannah's hint",  address: "Hannah's address" },
+//     Brett: { hint: "Brett's hint", address: "Brett's address" },
 //   }
 exports.process = function(payload) {
   if (payload.event != eventName) return;

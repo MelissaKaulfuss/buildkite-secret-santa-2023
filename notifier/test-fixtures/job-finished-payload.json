@@ -6,17 +6,25 @@
   "build": {
     "state": "passed",
     "meta_data": {
-      "names": "Tim\nKeith\nHarriet\nSam\nJess",
-      "hint-Sam": "Sam's hint",
-      "hint-Tim": "Tim's hint",
-      "hint-Jess": "Jess's hint",
-      "hint-Keith": "Keith's hint",
-      "hint-Harriet": "Harriet's hint",
-      "address-Sam": "Sam's address",
-      "address-Tim": "Tim's address",
-      "address-Jess": "Jess's address",
-      "address-Keith": "Keith's address",
-      "address-Harriet": "Harriet's address"
+      "names": "Baz\nBen\nBrett\nChris\nHannah\nMel\nMHz\nMichael\nMitch",
+      "hint-Baz": "Baz's hint",
+      "hint-Ben": "Ben's hint",
+      "hint-Brett": "Bretts's hint",
+      "hint-Chris": "Chris's hint",
+      "hint-Hannah": "Hannah's hint",
+      "hint-Mel": "Mel's hint",
+      "hint-MHz": "MHz's hint",
+      "hint-Michael": "Michael's hint",
+      "hint-Mitch": "Mitch's hint",
+      "address-Baz": "Baz's address",
+      "address-Ben": "Ben's address",
+      "address-Brett": "Bretts's address",
+      "address-Chris": "Chris's address",
+      "address-Hannah": "Hannah's address",
+      "address-Mel": "Mel's address",
+      "address-MHz": "MHz's address",
+      "address-Michael": "Michael's address",
+      "address-Mitch": "Mitch's address"
     }
   }
 }

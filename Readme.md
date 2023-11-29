@@ -1,4 +1,4 @@
-<h1><img alt="Buildkite Secret Santa 2023" src="logo.gif" width="550"></h1>
+<h1>Buildkite Secret Santa 2023</h1>
 
 [Buildkite](https://buildkite.com/)’s Secret Santa 2023 build pipeline, gets xmas pressie hints from everyone, and notifies gift purchasers who they'll be shopping for, and what their gift recipient's wish is.
 
@@ -20,17 +20,9 @@ The webhook receiver:
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
-# Thanks to the original Secret Santa admin
+# Thanks to the original Secret Santa 🤫🎁✨
 
-This is a fork of [Tim Lucas's](https://github.com/toolmantim) original 2016 Buildkite Secret Santa. 🎅🏻✨
-
-<!-- ## Screenshots
-
-<p align="center"><img alt="Buildkite Secret Santa 2016" src="screenshot.png"></p>
-
-<p align="center"><img alt="Buildkite Secret Santa 2016 Unblock Prompt Animation" src="screenshot-unblock.gif" width="724"></p>
-
-<p align="center"><img alt="Buildkite Secret Santa 2016 Email" src="screenshot-email-notification.png" width="649"></p> -->
+This is a fork of [Tim Lucas's](https://github.com/toolmantim) original 2016 Buildkite Secret Santa.
 
 ## License
 

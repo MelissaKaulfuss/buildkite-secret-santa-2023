@@ -1,2 +1,2 @@
 steps:
-  command: pipeline/pipeline.bash
+  command: "pipeline/pipeline.bash"

@@ -1,3 +1,3 @@
 steps:
   - label: ":bash: Generate steps"
-  - command: "pipeline/pipeline.bash | buildkite-agent pipeline upload"
+    command: "pipeline/pipeline.bash | buildkite-agent pipeline upload"

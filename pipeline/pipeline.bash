@@ -21,11 +21,9 @@ for name in $NAMES; do
     prompt: "Dear Secret Santa…"
     submit: "Lock it in Eddy!"
     fields:
-      - text: "Pressie Hint"
-        hint: "My xmas pressie hint is…"
+      - text: "My xmas pressie hint"
         key: "hint-$name"
-      - text: "Delivery Address"
-        hint: "Please send my xmas pressie to…"
+      - text: "Please delivery my xmas pressie to this address"
         key: "address-$name"
 PIPELINE
 done

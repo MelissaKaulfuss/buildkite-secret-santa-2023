@@ -22,7 +22,7 @@ for name in $NAMES; do
     fields:
       - text: "My xmas pressie hint"
         key: "hint-$name"
-      - text: "Please delivery my xmas pressie to this address"
+      - text: "Please deliver my xmas pressie to this address"
         key: "address-$name"
 PIPELINE
 done

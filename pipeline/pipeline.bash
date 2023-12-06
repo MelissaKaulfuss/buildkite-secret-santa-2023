@@ -11,7 +11,7 @@ fi
 cat <<PIPELINE
 steps:
   - command: "pipeline/readme.bash"
-    label: "🎄 Readme"
+    label: "🎄 README please"
     artifact_paths: "pipeline/*.gif"
 PIPELINE
 

@@ -12,7 +12,6 @@ cat <<PIPELINE
 steps:
   - command: "pipeline/readme.bash"
     label: "🎄 README please"
-    artifact_paths: "pipeline/*.gif"
 PIPELINE
 
 for name in $NAMES; do

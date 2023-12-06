@@ -20,7 +20,7 @@ The webhook receiver:
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
-# Thanks to the original Secret Santa 🤫🎁✨
+## Thanks to the original Secret Santa 🤫🎁✨
 
 This is a fork of [Tim Lucas's](https://github.com/toolmantim) original 2016 Buildkite Secret Santa.
 
